@@ -1,0 +1,61 @@
+body {
+  color: rgb(65,75,86);
+  font-family: arial;
+  margin: 0;
+}
+#luca {
+  text-align: center;
+}
+.test {
+  background-color: lightgreen;
+  text-align: center;
+  padding:20px
+}
+img {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 130px;
+}
+.nice-link {
+  color: red;
+}
+.nice-link:hover {
+  color: green;
+  text-decoration: none;
+  transition: color 1.5s;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+#a:hover {
+  color:red;
+  transition: color 1s;
+}
+#b:hover {
+  color:purple;
+  transition: color 1s;
+}
+#c:hover {
+  color:yellow;
+  transition: color 1s;
+}
+.button {
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.button--confirm {
+  background-color: lightgreen;
+}
+.button--cancel {
+  background-color: red;
+
+}
